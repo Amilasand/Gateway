@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Youtube Clone</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Edu+TAS+Beginner:wght@400;500;600;700&family=Noto+Serif+Sinhala:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Edu+TAS+Beginner:wght@400;500;600;700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&family=Noto+Serif+Sinhala:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Edu+TAS+Beginner:wght@400;500;600;700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&family=Noto+Serif+Sinhala:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Special+Elite&display=swap" rel="stylesheet">
+
+
+        <link rel="stylesheet" href="stylesheet-youtube-training/general.css">
+        <link rel="stylesheet" href="stylesheet-youtube-training/header.css">
+        <link rel="stylesheet" href="stylesheet-youtube-training/body.css">
+        <link rel="stylesheet" href="stylesheet-youtube-training/sidebar.css">
+    </head>
+
+
+    <body class="body"> <!---# Main Color Body - rgb(37, 95, 83);-->
+
+        <div class="div-header"> <!---HEADER START-->
+
+            <div class="left-section"> <!---LEFT SECTION-->
+                <img class="hamburger-menu" src="Icons/hamburger-menu.svg">
+                <div class="div-gateway-logo">
+                    <img class="gateway-logo" src="Icons/Gatewaypng.png">
+                    <p class="tooltip">Gateway|Home</p>
+                </div>
+                
+            </div>
+
+            <div class="mid-section"> <!---MID SECTION-->
+                <input class="search-box" type="text" placeholder="Search">
+                <div class="div-search-btn">
+                    <button class="search-btn"><img class="search" src="Icons/search.svg"></button>
+                    <p class="tooltip">Search</p>
+                </div>
+
+                
+                <div class="div-voice-search-btn">
+                    <button class="voice-search-btn"><img class="voice-search" src="Icons/voice-search-icon.svg" ></button>
+                    <p class="tooltip">Search with your voice</p>
+                </div>
+               
+            </div>
+
+
+
+            <div class="right-section"> <!---RIGHT SECTION-->
+                <div class="div-upload">
+                    <button class="upload-btn"><img class="upload" src="Icons/upload.svg"></button>
+                    <p class="tooltip">Create</p>
+                </div>
+                <div class="div-youtube-apps">
+                    <button class="youtube-apps-btn"><img class="youtube-apps" src="Icons/youtube-apps.svg"></button>
+                    <p class="tooltip">Gateway Apps</p>
+                </div>
+              
+               
+                <div class="div-notifications" style="position: relative;"><button class="notifications-btn"><img class="notifications" src="Icons/notifications.svg"></button>
+                <div class="notification-count">3</div>
+                <p class="tooltip">Notifications</p>
+                </div>
+                
+               
+                <img class="profile-img" src="Channel Logo/Amila.jpg">
+            </div>
+        </div>                     <!---HEADER END-->
+
+
+
+        <div class="sidebar">      <!---SIDEBAR START-->
+            <div class="sidebar-link">
+                <img src="Icons/home.svg"> Home
+            </div>
+            <div class="sidebar-link">
+                <img src="Icons/explore.svg"> Explore
+            </div>
+            <div class="sidebar-link">
+                <img src="Icons/subscriptions.svg"> Subscription
+            </div>
+            <div class="sidebar-link">
+                <img src="Icons/originals.svg"> Originals
+            </div>
+            <div class="sidebar-link">
+                <img src="Icons/youtube-music.svg"> Youtube Music
+            </div>
+            <div class="sidebar-link">
+                <img src="Icons/library.svg"> Library
+            </div>
+        </div>                     <!---SIDEBAR END-->
+
+
+
+        <div class="div-video-grid"> <!---BODY START-->
+
+            <div class="div-video"> <!--Video 01-->
+                <div class="div-thumbnail">
+                    <a href="https://youtu.be/RV6szWnALLY?si=nDVsxgZdrH0H5pC5" target="_blank"><img class="thumbnail" src="Thumbnails-2/buddhism.jpg"></a>
+                    <div class="video-time">20:30</div>
+                </div>
+
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/buddhist association.jpg">
+                        <div class="tooltip">
+                            <div><img class="channel-img" src="Channel Logo/buddhist association.jpg"></div>
+                            <div>
+                                <p class="channel-name">SL Buddhist Assosiation</p>
+                                <p class="video-stats">10K views &#183 3 weeks ago</p>        
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div-video-data">
+                        <a href="https://youtu.be/RV6szWnALLY?si=nDVsxgZdrH0H5pC5" target="_blank" style="text-decoration: none;"><p class="video-title">Choose good friends</p></a>
+
+                        <p class="channel-name">SL Buddhist Assosiation</p>
+                        <p class="video-stats">10K views &#183 3 weeks ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 02-->
+                <div class="div-thumbnail">
+                    <a href="https://youtu.be/3Gz_StmTMnQ?si=TFzowJL1xzt-XTxV" target="_blank"><img class="thumbnail" src="Thumbnails-2/amazon nature.jpg"></a>
+                    <div class="video-time">45:19</div>
+                </div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/nature.jpg">                  </div>
+                    <div class="div-video-data">
+                        <a href="https://youtu.be/3Gz_StmTMnQ?si=TFzowJL1xzt-XTxV" target="_blank" style="text-decoration: none;"><p class="video-title">Precious Rainforests</p></a>
+                        
+                        <p class="channel-name">Nature</p>
+                        <p class="video-stats">5K views &#183 2months ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 03-->
+                <div class="div-thumbnail"><a href="https://youtu.be/u22Lq9paXeU?si=Ccz_IiVBf7wBNfYY" target="_blank"><img class="thumbnail" src="Thumbnails-2/tomato soup.jpg">
+                </a>
+                    <div class="video-time">23:55</div>
+                </div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/ceylon dieris.jpg"></div>
+                    <div class="div-video-data">
+                        <a class="div-thumbnail"><a href="https://youtu.be/u22Lq9paXeU?si=Ccz_IiVBf7wBNfYY" target="_blank" style="text-decoration: none;"><p class="video-title">Tomatoes hit on the table</p></a>   
+                        <p class="channel-name">Ceylon Dieries</p>
+                        <p class="video-stats">3K views &#183 1month ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 04-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/boost your finance.jpg">
+                    <div class="video-time">25:44</div></div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/ceylon yaka.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">Boost Your Finance Fast</p>
+                        <p class="channel-name">Ceylon Yaka</p>
+                        <p class="video-stats">8K views &#183 3 weeks ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 05-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/boxing.jpg">
+                    <div class="video-time">12:20</div>
+                </div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/Amila.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">Champ Vs Champ</p>
+                        <p class="channel-name">AmVlog</p>
+                        <p class="video-stats">8K views &#183 2 weeks ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 06-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/buddhism 2.jpg">
+                    <div class="video-time">20:30</div>
+                </div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/buddhist association.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">How to Face Criticism</p>
+                        <p class="channel-name">SL Buddhist Assosiation</p>
+                        <p class="video-stats">6K views &#183 1 week ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="div-video"> <!--Video 07-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/sea.jpg">
+                    <div class="video-time">20:53</div>
+                </div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/nature.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">Sea Giants</p>
+                        <p class="channel-name">Nature</p>
+                        <p class="video-stats">10K views &#183 2 months ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 08-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/sri lanka tourism.png">
+                    <div class="video-time">32:42</div>
+                </div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/ceylon dieris.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">The Paradise in Indian Ocean</p>
+                        <p class="channel-name">Ceylon Dieris</p>
+                        <p class="video-stats">10K views &#183 3 weeks ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 09-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/grow your business.jpg">
+                    <div class="video-time">13:64</div>
+                </div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/ceylon yaka.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">Grow your business with us</p>
+                        <p class="channel-name">Ceylon Yaka</p>
+                        <p class="video-stats">10K views &#183 3 weeks ago</p>
+                        
+                    </div>              <!---BODY END-->
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 01-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/buddhism.jpg">
+                    <div class="video-time">20:30</div>
+                </div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/buddhist association.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">Choose good friends</p>
+                        <p class="channel-name">SL Buddhist Assosiation</p>
+                        <p class="video-stats">10K views &#183 3 weeks ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 02-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/amazon nature.jpg">
+                    <div class="video-time">20:30</div>
+                </div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/nature.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">Precious Rainforests</p>
+                        <p class="channel-name">Nature</p>
+                        <p class="video-stats">5K views &#183 2months ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 03-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/tomato soup.jpg">
+                    <div class="video-time">20:30</div>
+                </div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/ceylon dieris.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">Tomatoes hit on the table</p>
+                        <p class="channel-name">Ceylon Dieries</p>
+                        <p class="video-stats">3K views &#183 1month ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 04-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/boost your finance.jpg">
+                    <div class="video-time">20:30</div>
+                </div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/ceylon yaka.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">Boost Your Finance Fast</p>
+                        <p class="channel-name">Ceylon Yaka</p>
+                        <p class="video-stats">8K views &#183 3 weeks ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 05-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/boxing.jpg">
+                    <div class="video-time">20:30</div>
+                </div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/Amila.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">Champ Vs Champ</p>
+                        <p class="channel-name">AmVlog</p>
+                        <p class="video-stats">8K views &#183 2 weeks ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 06-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/buddhism 2.jpg">
+                    <div class="video-time">20:30</div>
+                </div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/buddhist association.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">How to Face Criticism</p>
+                        <p class="channel-name">SL Buddhist Assosiation</p>
+                        <p class="video-stats">6K views &#183 1 week ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="div-video"> <!--Video 07-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/sea.jpg">
+                    <div class="video-time">20:30</div>
+                </div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/nature.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">Sea Giants</p>
+                        <p class="channel-name">Nature</p>
+                        <p class="video-stats">10K views &#183 2 months ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 08-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/sri lanka tourism.png">
+                    <div class="video-time">20:30</div>
+                </div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/ceylon dieris.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">The Paradise in Indian Ocean</p>
+                        <p class="channel-name">Ceylon Dieris</p>
+                        <p class="video-stats">10K views &#183 3 weeks ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 09-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/grow your business.jpg">
+                    <div class="video-time">20:30</div>
+                </div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/ceylon yaka.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">Grow your business with us</p>
+                        <p class="channel-name">Ceylon Yaka</p>
+                        <p class="video-stats">10K views &#183 3 weeks ago</p>
+                        
+                    </div>              <!---BODY END-->
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 01-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/buddhism.jpg">
+                    <div class="video-time">20:30</div>
+                </div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/buddhist association.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">Choose good friends</p>
+                        <p class="channel-name">SL Buddhist Assosiation</p>
+                        <p class="video-stats">10K views &#183 3 weeks ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 02-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/amazon nature.jpg">
+                    <div class="video-time">20:30</div>
+                </div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/nature.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">Precious Rainforests</p>
+                        <p class="channel-name">Nature</p>
+                        <p class="video-stats">5K views &#183 2months ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 03-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/tomato soup.jpg">
+                    <div class="video-time">20:30</div>
+                </div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/ceylon dieris.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">Tomatoes hit on the table</p>
+                        <p class="channel-name">Ceylon Dieries</p>
+                        <p class="video-stats">3K views &#183 1month ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 04-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/boost your finance.jpg">
+                    <div class="video-time">20:30</div>
+                </div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/ceylon yaka.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">Boost Your Finance Fast</p>
+                        <p class="channel-name">Ceylon Yaka</p>
+                        <p class="video-stats">8K views &#183 3 weeks ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 05-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/boxing.jpg">
+                    <div class="video-time">20:30</div>
+                </div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/Amila.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">Champ Vs Champ</p>
+                        <p class="channel-name">AmVlog</p>
+                        <p class="video-stats">8K views &#183 2 weeks ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 06-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/buddhism 2.jpg">
+                    <div class="video-time">20:30</div>
+                </div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/buddhist association.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">How to Face Criticism</p>
+                        <p class="channel-name">SL Buddhist Assosiation</p>
+                        <p class="video-stats">6K views &#183 1 week ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="div-video"> <!--Video 07-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/sea.jpg">
+                    <div class="video-time">20:30</div>
+                </div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/nature.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">Sea Giants</p>
+                        <p class="channel-name">Nature</p>
+                        <p class="video-stats">10K views &#183 2 months ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 08-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/sri lanka tourism.png">
+                    <div class="video-time">20:30</div>
+                </div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/ceylon dieris.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">The Paradise in Indian Ocean</p>
+                        <p class="channel-name">Ceylon Dieris</p>
+                        <p class="video-stats">10K views &#183 3 weeks ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 09-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/grow your business.jpg">
+                    <div class="video-time">20:30</div>
+                </div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/ceylon yaka.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">Grow your business with us</p>
+                        <p class="channel-name">Ceylon Yaka</p>
+                        <p class="video-stats">10K views &#183 3 weeks ago</p>
+                        
+                    </div>              <!---BODY END-->
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 01-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/buddhism.jpg">
+                    <div class="video-time">20:30</div>
+                </div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/buddhist association.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">Choose good friends</p>
+                        <p class="channel-name">SL Buddhist Assosiation</p>
+                        <p class="video-stats">10K views &#183 3 weeks ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 02-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/amazon nature.jpg">
+                    <div class="video-time">20:30</div>
+                </div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/nature.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">Precious Rainforests</p>
+                        <p class="channel-name">Nature</p>
+                        <p class="video-stats">5K views &#183 2months ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 03-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/tomato soup.jpg">
+                    <div class="video-time">20:30</div>
+                </div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/ceylon dieris.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">Tomatoes hit on the table</p>
+                        <p class="channel-name">Ceylon Dieries</p>
+                        <p class="video-stats">3K views &#183 1month ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 04-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/boost your finance.jpg"></div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/ceylon yaka.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">Boost Your Finance Fast</p>
+                        <p class="channel-name">Ceylon Yaka</p>
+                        <p class="video-stats">8K views &#183 3 weeks ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 05-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/boxing.jpg"></div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/Amila.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">Champ Vs Champ</p>
+                        <p class="channel-name">AmVlog</p>
+                        <p class="video-stats">8K views &#183 2 weeks ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 06-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/buddhism 2.jpg"></div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/buddhist association.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">How to Face Criticism</p>
+                        <p class="channel-name">SL Buddhist Assosiation</p>
+                        <p class="video-stats">6K views &#183 1 week ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="div-video"> <!--Video 07-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/sea.jpg"></div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/nature.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">Sea Giants</p>
+                        <p class="channel-name">Nature</p>
+                        <p class="video-stats">10K views &#183 2 months ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 08-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/sri lanka tourism.png"></div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/ceylon dieris.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">The Paradise in Indian Ocean</p>
+                        <p class="channel-name">Ceylon Dieris</p>
+                        <p class="video-stats">10K views &#183 3 weeks ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 09-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/grow your business.jpg"></div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/ceylon yaka.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">Grow your business with us</p>
+                        <p class="channel-name">Ceylon Yaka</p>
+                        <p class="video-stats">10K views &#183 3 weeks ago</p>
+                        
+                    </div>              <!---BODY END-->
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 01-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/buddhism.jpg"></div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/buddhist association.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">Choose good friends</p>
+                        <p class="channel-name">SL Buddhist Assosiation</p>
+                        <p class="video-stats">10K views &#183 3 weeks ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 02-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/amazon nature.jpg"></div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/nature.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">Precious Rainforests</p>
+                        <p class="channel-name">Nature</p>
+                        <p class="video-stats">5K views &#183 2months ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 03-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/tomato soup.jpg"></div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/ceylon dieris.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">Tomatoes hit on the table</p>
+                        <p class="channel-name">Ceylon Dieries</p>
+                        <p class="video-stats">3K views &#183 1month ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 04-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/boost your finance.jpg"></div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/ceylon yaka.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">Boost Your Finance Fast</p>
+                        <p class="channel-name">Ceylon Yaka</p>
+                        <p class="video-stats">8K views &#183 3 weeks ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 05-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/boxing.jpg"></div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/Amila.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">Champ Vs Champ</p>
+                        <p class="channel-name">AmVlog</p>
+                        <p class="video-stats">8K views &#183 2 weeks ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 06-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/buddhism 2.jpg"></div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/buddhist association.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">How to Face Criticism</p>
+                        <p class="channel-name">SL Buddhist Assosiation</p>
+                        <p class="video-stats">6K views &#183 1 week ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="div-video"> <!--Video 07-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/sea.jpg"></div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/nature.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">Sea Giants</p>
+                        <p class="channel-name">Nature</p>
+                        <p class="video-stats">10K views &#183 2 months ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 08-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/sri lanka tourism.png"></div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/ceylon dieris.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">The Paradise in Indian Ocean</p>
+                        <p class="channel-name">Ceylon Dieris</p>
+                        <p class="video-stats">10K views &#183 3 weeks ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 09-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/grow your business.jpg"></div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/ceylon yaka.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">Grow your business with us</p>
+                        <p class="channel-name">Ceylon Yaka</p>
+                        <p class="video-stats">10K views &#183 3 weeks ago</p>
+                        
+                    </div>              <!---BODY END-->
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 01-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/buddhism.jpg"></div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/buddhist association.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">Choose good friends</p>
+                        <p class="channel-name">SL Buddhist Assosiation</p>
+                        <p class="video-stats">10K views &#183 3 weeks ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 02-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/amazon nature.jpg"></div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/nature.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">Precious Rainforests</p>
+                        <p class="channel-name">Nature</p>
+                        <p class="video-stats">5K views &#183 2months ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 03-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/tomato soup.jpg"></div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/ceylon dieris.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">Tomatoes hit on the table</p>
+                        <p class="channel-name">Ceylon Dieries</p>
+                        <p class="video-stats">3K views &#183 1month ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 04-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/boost your finance.jpg"></div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/ceylon yaka.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">Boost Your Finance Fast</p>
+                        <p class="channel-name">Ceylon Yaka</p>
+                        <p class="video-stats">8K views &#183 3 weeks ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 05-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/boxing.jpg"></div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/Amila.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">Champ Vs Champ</p>
+                        <p class="channel-name">AmVlog</p>
+                        <p class="video-stats">8K views &#183 2 weeks ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 06-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/buddhism 2.jpg"></div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/buddhist association.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">How to Face Criticism</p>
+                        <p class="channel-name">SL Buddhist Assosiation</p>
+                        <p class="video-stats">6K views &#183 1 week ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="div-video"> <!--Video 07-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/sea.jpg"></div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/nature.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">Sea Giants</p>
+                        <p class="channel-name">Nature</p>
+                        <p class="video-stats">10K views &#183 2 months ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 08-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/sri lanka tourism.png"></div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/ceylon dieris.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">The Paradise in Indian Ocean</p>
+                        <p class="channel-name">Ceylon Dieris</p>
+                        <p class="video-stats">10K views &#183 3 weeks ago</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-video"> <!--Video 09-->
+                <div class="div-thumbnail"><img class="thumbnail" src="Thumbnails-2/grow your business.jpg"></div>
+                <div class="div-video-info">
+                    <div class="div-channel-img"><img class="channel-img" src="Channel Logo/ceylon yaka.jpg"></div>
+                    <div class="div-video-data">
+                        <p class="video-title">Grow your business with us</p>
+                        <p class="channel-name">Ceylon Yaka</p>
+                        <p class="video-stats">10K views &#183 3 weeks ago</p>
+                        
+                    </div>              <!---BODY END-->
+                </div>
+            </div>
+
+        </div>
+        
+    </body>
+</html>
